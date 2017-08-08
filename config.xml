@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.lavavolcano.styled" version="1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android" id="com.lavavolcano.styled" version="1">
 
 	<name>Lava Volcano</name>
 	<description>Jump to the top of the Volcano.  Dont let the Lava get you!</description>
@@ -17,7 +17,7 @@
 	<preference name="fullscreen" value="true" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
-<gap:config-file platform="android" parent="/manifest" mode="delete"> <uses-permission android:name="android.permission.READ_PHONE_STATE"/> </gap:config-file>
+        <gap:config-file platform="android" parent="/manifest" mode="delete"> <uses-permission android:name="android.permission.READ_PHONE_STATE"/> </gap:config-file>
 
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="16" />
